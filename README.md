@@ -58,5 +58,5 @@ __Running Tests:__
 2. mvn test
 
 __JAVADOCS__
-The Javadocs for the backend can be found at: movie-popularity-backend\apidocs\index.html
-To view JAVADOCS, open index.html in your browser
+* The Javadocs for the backend can be found at: movie-popularity-backend\apidocs\index.html
+* To view JAVADOCS, open index.html in your browser
