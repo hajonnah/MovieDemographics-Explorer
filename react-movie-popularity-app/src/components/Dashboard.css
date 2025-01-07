@@ -1,0 +1,119 @@
+/* Dashboard.css */
+
+/* Container for the whole dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logobar {
+    background-color: #101820;
+    padding-left: 3000px;
+    padding-right: 3000px;
+    padding-top: 30px;
+    margin-bottom:30px;
+    position: fixed;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+ 
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Main content container (80% for chart, 20% for preferences) */
+  .main-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 100%; 
+    padding-top:40px;
+  }
+  
+
+  .movieChart {
+    flex: 0 0 80%; 
+    padding-right: 10px;
+  }
+  
+
+  .preferences-buttons {
+    flex: 0 0 20%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Settings form styling */
+  .settings-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 800px;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .modal-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modal-content li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    margin-left: 10px;
+  }
+  
+  .notification-popup {
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    background-color: #60b0df;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }

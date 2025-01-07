@@ -1,0 +1,13 @@
+# Application Name
+spring.application.name=movie-popularity-backend
+
+# TMDB API Configuration
+tmdb.api.key=YOUR_API_KEY_HERE           
+tmdb.api.url=https://api.themoviedb.org  
+
+# UN WPP API Configuration
+un.api.key=YOUR_API_KEY_HERE             
+un.api.url=https://population.un.org/dataportalapi/api 
+
+# Server Settings
+server.port=8080                         

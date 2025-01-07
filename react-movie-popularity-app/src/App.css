@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #101820);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #101820);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.notification-popup {
+  background-color: #101820;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* src/App.css */
+.tabs {
+  display: none;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  padding: 20px;
+}
+.settings-form {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.settings-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.settings-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.settings-form select, .settings-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+}
+.logobar {
+  color:  #FEE715;
+}
+select:hover{ 
+  background-color: #101820 ;
+}
+select:active{ 
+  background-color: #101820 ;
+}
+
+
+
+.modal-content {
+  background-color: #242424;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #101820;
+  color: black;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: #101820;
+}
+
+button:active {
+  background-color: #101820;
+}
